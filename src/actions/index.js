@@ -13,3 +13,9 @@ export const multiply = (amount = 1) => ({
   type: 'MULTIPLY',
   amount
 })
+
+export const division = (amount=1) => ({// bölme işlemi acction'u bu kısım bildirme işlemi yapmaktadır.
+  type: 'DIVISION',
+  amount
+
+})
